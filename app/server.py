@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/is4cmb702gsk4qq/stage2_comp_RSNT.pkl?dl=1'
-export_file_name = 'stage2_comp_RSNT.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1nBuTn6UWxAyk5y0psJQsKvLW8bMJIRsJ'
+export_file_name = 'nuvem_parcial.pkl'
 
-classes = ['Cirrus','Cirrostratus','Cirrocumulus','Altocumulus','Altostratus','Cumulus','Cumulonimbus','Nimbostratus','Stratocumulus','Stratus','Contrail']
+classes = ['Ac','As','Cb','Cc','Ci','Cs','Ct','Cu','Ns','Sc','St']
 path = Path(__file__).parent
 
 app = Starlette()
