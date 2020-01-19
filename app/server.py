@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1nBuTn6UWxAyk5y0psJQsKvLW8bMJIRsJ'
+export_file_url = 'https://www.dropbox.com/s/61ehnyhn3djc78t/nuvem_parcial.pkl?dl=1'
 export_file_name = 'nuvem_parcial.pkl'
 
 classes = ['Ac','As','Cb','Cc','Ci','Cs','Ct','Cu','Ns','Sc','St']
